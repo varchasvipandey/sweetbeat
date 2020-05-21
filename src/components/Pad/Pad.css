@@ -1,0 +1,49 @@
+.genre__name {
+  text-align: center;
+  padding: 3rem;
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.genre__controls {
+  text-align: center;
+}
+
+.genre__controls-button {
+  background-color: transparent;
+  font-size: 2rem;
+  padding: 2rem 2rem 2rem 2.3rem;
+  border-radius: 15rem;
+  outline: none;
+  transition: all 0.2s;
+  margin: 0rem 1rem;
+}
+.genre__controls-button:active {
+  transform: translateY(2px);
+}
+
+.pad {
+  position: absolute;
+  top: 210%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+
+.pad__row {
+  margin: 0 auto;
+}
+
+.pad__button {
+  display: inline-block;
+  height: 10rem;
+  width: 10rem;
+  color: transparent;
+}
+
+.pad__button:active {
+  filter: blur(0.5rem);
+  transform: scale(1.3);
+}

@@ -1,0 +1,56 @@
+.page {
+  height: 100vh;
+  position: relative;
+}
+
+.genre {
+  position: relative;
+}
+
+#toast-container {
+  padding: 1rem 0rem;
+}
+
+#toast-container.toast-bottom-full-width > .toast {
+  max-width: 100%;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 2rem;
+}
+
+#toast-container > .toast-error {
+  background-color: #ff2c00;
+  opacity: 1;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+#toast-container > .toast-error:hover {
+  background-color: #ff2c00;
+  opacity: 1;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+#toast-container > .toast-warning {
+  background-color: #0c2cce;
+  opacity: 1;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+#toast-container > .toast-warning:hover {
+  background-color: #0c2cce;
+  opacity: 1;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+#toast-container > .toast-success {
+  background-color: #8413ee;
+  opacity: 1;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+#toast-container > .toast-success:hover {
+  background-color: #8413ee;
+  opacity: 1;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}

@@ -1,0 +1,84 @@
+.home__audio-container {
+  position: fixed;
+  bottom: 6rem;
+  right: 1rem;
+}
+
+.home__audio-icon {
+  font-size: 3rem;
+  padding: 2rem;
+  animation: playing 1.8s infinite ease-in-out;
+  animation-delay: -2s;
+}
+
+.home__content-container {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-75%, -55%);
+}
+
+.home__content-center {
+  text-align: center;
+  transform: translate(45%, 100%);
+}
+
+.home__swiper {
+  font-size: 3rem;
+  animation: swiper 3s infinite ease-in-out;
+  animation-delay: -2s;
+}
+
+.home__logo {
+  width: 150%;
+  cursor: pointer;
+}
+
+/* ANIMATIONs */
+@keyframes playing {
+  0% {
+    opacity: 0;
+    color: var(--color-one);
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 1;
+    color: var(--color-three);
+    transform: scale(1);
+  }
+
+  70% {
+    transform: scale(1);
+  }
+
+  90% {
+    transform: scale(1.4);
+  }
+
+  100% {
+    opacity: 0;
+    color: var(--color-four);
+    transform: scale(1);
+  }
+}
+
+@keyframes swiper {
+  0% {
+    opacity: 0;
+    transform: translateX(0%);
+    color: var(--color-one);
+  }
+
+  50% {
+    opacity: 1;
+    transform: translateX(-20%);
+    color: var(--color-three);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateX(-40%);
+    color: var(--color-four);
+  }
+}

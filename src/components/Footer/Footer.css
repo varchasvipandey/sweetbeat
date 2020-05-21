@@ -1,0 +1,22 @@
+.footer {
+  background-image: linear-gradient(
+    to right,
+    var(--color-three),
+    var(--color-two-light)
+  );
+}
+
+.footer__content {
+  text-align: center;
+  padding: 2rem;
+}
+
+.footer__text {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.brand {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}

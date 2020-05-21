@@ -1,0 +1,54 @@
+.nav {
+  padding: 1rem 0.5rem;
+  background-image: linear-gradient(
+    to right,
+    var(--color-three),
+    var(--color-two-light)
+  );
+}
+
+.nav__logo {
+  width: 35%;
+}
+
+ion-icon {
+  font-size: 3rem;
+  float: right;
+  padding-right: 0.5rem;
+}
+
+ion-icon[name="sunny"] {
+  color: white;
+}
+
+ion-icon[name="moon"] {
+  color: rgb(48, 48, 48);
+}
+
+/* MEDIA */
+@media only screen and (min-width: 75em) {
+  .nav__logo {
+    width: 20%;
+  }
+
+  ion-icon {
+    font-size: 5rem;
+    float: right;
+    padding-right: 1rem;
+  }
+}
+
+@media only screen and (min-width: 56.25em) {
+  .nav__logo {
+    width: 20%;
+  }
+
+  ion-icon {
+    font-size: 3rem;
+    float: right;
+    padding-right: 1rem;
+  }
+}
+
+@media only screen and (max-width: 28.125em) {
+}
